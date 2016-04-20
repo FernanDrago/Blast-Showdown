@@ -5,13 +5,13 @@ let path = require('path');
 
 let shop = [
 	['Símbolo', 'Compra un símbolo personalizado que aparecerá al lado de tu nick en la lista de usuarios. (Temporal, se borrará en el siguente reinicio del server).', 10],
-	['Arreglo', 'Compra el derecho de cambiar o arreglar cualquier objeto de este tienda (como es obvio primero debes obtener el artículo)', 20],
-	['Avatar Personalizado', 'Compra el derecho de tener un avatar personalizado a tu gusto.', 45],
-	['Sala de liga', 'Compra una sala de liga, como mínimo debe tener 10 miembros.', 50],
+	['Arreglo', 'Compra el derecho de cambiar o arreglar cualquier objeto de este tienda (como es obvio primero debes obtener el artículo)', 3400],
+	['Avatar Personalizado', 'Compra el derecho de tener un avatar personalizado a tu gusto.', 5900],
+	['Sala de liga', 'Compra una sala de liga, como mínimo debe tener 10 miembros.', 5000],
 	['TC Personalizada', 'Compras el derecho a una "Tarjeta de Entrenador personalizada". Puedes hablar con un admin para su creación.', 30],
-	['Ayuda del Staff', 'Compra el derecho a que un miembro del staff te responda una duda de manera inmediata', 15],
-	['Icono', 'Compra el derecho de tener un icono junto a tu nombre en cualquier sala.', 65],
-	['Sala de Chat', 'Compra tu propia sala de Chat, esta debe estar sujeta a las reglas del servidor de lo contrario se borrara.', 100],
+	['Ayuda del Staff', 'Compra el derecho a que un miembro del staff te responda una duda de manera inmediata', 150],
+	['Icono', 'Compra el derecho de tener un icono junto a tu nombre en cualquier sala.', 6500],
+	['Sala de Chat', 'Compra tu propia sala de Chat, esta debe estar sujeta a las reglas del servidor de lo contrario se borrara.', 10000],
 ];
 
 let shopDisplay = getShopDisplay(shop);
